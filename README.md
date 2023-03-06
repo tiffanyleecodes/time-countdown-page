@@ -28,10 +28,7 @@ Users should be able to:
 ![Desktop](./ScreenShot/Desktop.png)
 ![mobile](./ScreenShot/mobile.png)
 
-### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
