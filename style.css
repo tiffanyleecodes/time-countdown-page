@@ -1,0 +1,140 @@
+* {
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url(./img/WldBTmp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrap {
+}
+h1 {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #343637;
+}
+
+.subtitle {
+  margin: 0.5rem 0;
+  color: #3d5361;
+}
+button {
+  margin: 1rem;
+}
+
+.time {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+
+.time div {
+  background-color: #f5f0ed80;
+  box-shadow: 0 2px 5px #3d536150;
+
+  width: 6rem;
+  height: 6rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.time div p {
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #434445;
+}
+
+.subscribe {
+  margin: 5rem 0 0 0;
+}
+
+h3 {
+  letter-spacing: 0.2rem;
+  color: #343637;
+}
+
+input {
+  background-color: #f5f0ed90;
+  border: none;
+  padding: 0.7rem 0.2rem;
+  width: 60%;
+  border-radius: 0.7rem;
+}
+
+button {
+  border: none;
+  background-color: #3d5361;
+  padding: 0.7rem 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: 0.2rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #647885;
+}
+
+.icon-bar {
+  margin: 1rem 0;
+}
+.icon-bar i {
+  margin: 0 0.5rem;
+  color: #3d5361;
+}
+
+.icon-bar i:hover {
+  cursor: pointer;
+  color: #6c98b4;
+}
+
+@media (max-width: 425px) {
+  .wrap {
+    max-width: 425px;
+  }
+
+  .time {
+    gap: 0.5rem;
+  }
+  .time div {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.7rem;
+  }
+
+  .time div p {
+    font-size: 0.7rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #434445;
+  }
+
+  input {
+    margin: 1rem 0 0 0;
+  }
+
+  input {
+    width: 65%;
+  }
+  button {
+    width: 65%;
+  }
+}
